@@ -48,7 +48,7 @@ a:active{color: #000;text-decoration: none;}
 	box-sizing: border-box;
 }
 .conts{
-	background-image: url('../img/pic3.jpeg');
+	background-image: url('../img/pic4.jpeg');
 	background-repeat: no-repeat;
 	background-size:cover;
     background-position:center center;
@@ -68,5 +68,5 @@ a:active{color: #000;text-decoration: none;}
 .main_ttl h1 img{
 	width:15%;
 	margin: 0;
-	min-width:180px;
+	min-width:140px;
 }
