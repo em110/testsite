@@ -56,9 +56,19 @@ a:active{color: #000;text-decoration: none;}
     width:100vw;
     margin:0;
     padding:0;
+    display: table;
 }
 
-
+.main_ttl {
+	text-align: center;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+.main_ttl h1 img{
+	width:15%;
+	margin: 0;
+}
 
 
 
