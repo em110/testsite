@@ -100,7 +100,21 @@ a:active{color: #000;text-decoration: none;}
 }
 
 
+.conts_area section h2{
+	font-weight: normal;
+	font-size:1.3rem;
+	font-size:13px;
+}
 
+
+
+.conts_area section p{
+	margin-top: 20px;
+}
+
+
+
+/*****/
 .demo {
   width: 100%;
   padding: 10px 0;
@@ -115,7 +129,7 @@ a:active{color: #000;text-decoration: none;}
   padding-bottom: 15px;
 }
 .demo5 .heading span{
-  padding: 8px;
+  padding: 0 5% 0 5%;
   font-size:1.5em;
   font-size:15px;
 }
@@ -125,11 +139,11 @@ a:active{color: #000;text-decoration: none;}
   bottom: 0;
   height: 0;
   position: absolute;
-  width: 100%;
+  width:100%;
   z-index: 0;
 }
 .demo5 .heading:after {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 3px solid #222;
   bottom: 0;
   content: "";
   position: absolute;
@@ -137,18 +151,31 @@ a:active{color: #000;text-decoration: none;}
   z-index: 1;
 }
 
+.slogan{
+	font-style:oblique;
+	margin-top: 30px;
+	display:block;
+}
+
+
+/**info**/
 
 
 
 
 
-
-
-
-
-
-
-
+.calling {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  display:table;
+  box-sizing: border-box;
+}
+.calling h3 {
+  display:table-cell;
+  vertical-align: middle;
+  font-weight: normal;
+}
 
 
 
