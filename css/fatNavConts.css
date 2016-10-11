@@ -33,7 +33,7 @@
   -o-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  background-color: #ffffff;
+  background-color: #000;
 }
 .hamburger__icon:before, .hamburger__icon:after {
   position: absolute;
