@@ -81,6 +81,7 @@ a:active{color: #000;text-decoration: none;}
 	margin:5% 0 0 0;
 	padding: 0;
 	width:100%;
+	overflow: hidden;
 }
 .page_ttl h1 img{
 	width:10%;
@@ -180,7 +181,13 @@ a:active{color: #000;text-decoration: none;}
   font-size:13px;
 }
 
-
+.info p{
+   margin:10px 0 5px 0;
+}
+.greed{
+	display: block;
+	margin-top: 15px;
+}
 
 
 
