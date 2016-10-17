@@ -98,9 +98,9 @@ a:active{color: #000;text-decoration: none;}
 
 .conts_area{
 	width: 100%;
-	height:100%;
+	min-height: 100%;
 	box-sizing: border-box;
-	padding:0 10%;
+	padding:0 5%;
 	margin-top:20px;
 	font-size:1.3rem;
 	font-size:13px;
@@ -195,3 +195,21 @@ a:active{color: #000;text-decoration: none;}
 	display: block;
 	margin-top: 15px;
 }
+
+
+/******** archive1 *********/
+
+.masonry {
+width:100%;
+
+}
+
+.masonry ul{
+   margin:0;
+   padding:0;
+}
+.masonry ul li{
+   display: inline-block;
+   vertical-align: top;
+}
+
