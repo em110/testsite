@@ -28,8 +28,10 @@
 <link href="../css/fatNavConts.css" rel="stylesheet" type="text/css"/>
 
 <!-- js -->
-<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="../js/jquery.fatNav.min.js"></script>
+<script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+
 
 
 
@@ -70,8 +72,15 @@
 <div class="demo demo5"><div class="heading"><span>Archive</span></div></div>
 
 
-
-
+<div class="grid">
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div class="grid-item"><img src="img/886fe5614a244a7874a488ef8d8e63ac.jpg"></div>
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+</div><div style="clear: both;"></div>
 
 
 
@@ -91,9 +100,23 @@
 
 <script type="text/javascript">
 (function() {
-    $.fatNav();c
+    $.fatNav();
 }());
 </script>
+
+<script type="text/javascript">
+$('.grid').masonry({
+  // options
+  itemSelector: '.grid-item',
+  isFitWidth: true,
+  gutter:1,
+  isAnimated: true
+});
+
+</script>
+
+
+
 
 
 

@@ -100,7 +100,7 @@ a:active{color: #000;text-decoration: none;}
 	width: 100%;
 	min-height: 100%;
 	box-sizing: border-box;
-	padding:0 5%;
+	padding:0 2%;
 	margin-top:20px;
 	font-size:1.3rem;
 	font-size:13px;
@@ -134,7 +134,7 @@ a:active{color: #000;text-decoration: none;}
 .demo5 .heading {
   overflow: hidden;
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .demo5 .heading span{
   padding: 0 5% 0 5%;
@@ -199,17 +199,14 @@ a:active{color: #000;text-decoration: none;}
 
 /******** archive1 *********/
 
-.masonry {
-width:100%;
-
+.grid{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 0;
+	text-align: center;
 }
-
-.masonry ul{
-   margin:0;
-   padding:0;
+.grid-item{
+	float: left;
+	margin-bottom: 1px;
+	background-color: #000;
 }
-.masonry ul li{
-   display: inline-block;
-   vertical-align: top;
-}
-
