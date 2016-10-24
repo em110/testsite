@@ -188,6 +188,36 @@ a:active{color: #000;text-decoration: none;}
 
 
 
+/******** 404 *********/
+
+#window {
+  height:100%;
+  width:100%;
+  display:table;
+}
+
+
+.not_text{
+  display: table-cell;
+  vertical-align:middle;
+  color: #fff;
+  font-size:2.0em;
+  font-size:20px;
+  text-align: center;
+  font-family: "Sawarabi Gothic";
+}
+
+.not_text2{
+  font-family: 'Cousine', monospace;
+  display: block;
+  margin-top: 8px;
+  font-size:2.0em;
+  font-size:20px;
+  color: #fff;
+}
+
+
+
 /******** archive1 *********/
 
 
