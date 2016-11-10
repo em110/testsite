@@ -72,14 +72,14 @@
 <div class="demo demo5"><div class="heading"><span>Archive1</span></div></div>
 
 
-<div class="grid">
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
-<div class="grid-item"><img src="img/886fe5614a244a7874a488ef8d8e63ac.jpg"></div>
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
-<div class="grid-item"><img src="img/20161015-johncassavetes.jpg"></div>
+<div id="masonry">
+<div class="grid"><img src="img/20161012-kimyoreitaro.jpg"></div>
+<div class="grid"><img src="img/7e69eedbca1ca5d66462ee55922d418e57004cdb2fe7015df189ca26_485.jpg"></div>
+<div class="grid"><img src="img/095A81891-642x348.jpg"></div>
+<div class="grid"><img src="img/886fe5614a244a7874a488ef8d8e63ac.jpg"></div>
+<div class="grid"><img src="img/095A81891-642x348.jpg"></div>
+<div class="grid"><img src="img/20161015-johncassavetes02.jpg"></div>
+<div class="grid"><img src="img/20161012-kiseki_sp.jpg"></div>
 </div><div style="clear: both;"></div>
 
 
@@ -104,12 +104,14 @@
 }());
 </script>
 
+
+
+
 <script type="text/javascript">
-$('.grid').masonry({
+$('#masonry').masonry({
   // options
-  itemSelector: '.grid-item',
+  itemSelector: '.grid',
   isFitWidth: true,
-  gutter:1,
   isAnimated: true
 });
 

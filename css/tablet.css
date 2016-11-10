@@ -195,21 +195,61 @@ a:active{color: #000;text-decoration: none;}
 
 
 
+
+/******** 404 *********/
+
+#window {
+  height:100%;
+  width:100%;
+  display:table;
+}
+
+
+.not_text{
+  display: table-cell;
+  vertical-align:middle;
+  color: #fff;
+  font-size:2.0em;
+  font-size:20px;
+  text-align: center;
+  font-family: "Sawarabi Gothic";
+}
+
+.not_text2{
+  font-family: 'Cousine', monospace;
+  display: block;
+  margin-top: 8px;
+  font-size:2.0em;
+  font-size:20px;
+  color: #fff;
+}
+
+
+
+
+
+
+
 /******** archive1 *********/
 
+#masonry{
+  width: 100%;
+  line-height: 0;
+  height:auto;
+  margin: 0 auto;
+}
 .grid{
-	width: 100%;
-	margin: 0 auto;
-	line-height: 0;
-	text-align: center;
+  float:left;
+  width:300px;
+  display:inline;
+  overflow: hidden;
+  padding:3px;
 }
-.grid-item{
-	float: left;
-	margin-bottom: 1px;
-
+.grid img{
+  width:100%;
 }
 
-.grid-item--width2{width: 420px;}
+.grid-item--width2{max-width: 420px;}
 
 
 /******** archive2 *********/

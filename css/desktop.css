@@ -221,20 +221,36 @@ a:active{color: #000;text-decoration: none;}
 /******** archive1 *********/
 
 
-.grid{
+
+
+#masonry{
 	width: 100%;
-	margin: 0 auto;
 	line-height: 0;
-	text-align: center;
-	width: 100%;
-	height: auto;
+	height:auto;
+  margin: 0 auto;
 }
-.grid-item{
-	float: left;
-	margin-bottom: 1px;
+.grid{
+  float:left;
+  width:300px;
+  display:inline;
+  overflow: hidden;
+  padding:3px;
 }
 
-.grid-item--width2{width: 420px;}
+.grid img{
+  width:100%;
+}
+
+
+.grid-item--width2{max-width: 420px;}
+
+
+
+
+
+
+
+
 
 
 /******** archive2 *********/
