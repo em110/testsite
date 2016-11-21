@@ -40,6 +40,13 @@ a:visited{color:#000;text-decoration: none;}
 a:hover {color: #666;text-decoration: none;}
 a:active{color: #000;text-decoration: none;}
 
+/* a:hover img */
+a:hover img {
+  opacity:1;
+}
+
+
+
 
 
 #wrapper{
@@ -292,7 +299,6 @@ a:active{color: #000;text-decoration: none;}
 }
 .card .card-image {
   padding-top: 1.5rem;
-  background-color: #ff0000;
 }
 .card .card-image:first-child {
   padding-top: 0;
