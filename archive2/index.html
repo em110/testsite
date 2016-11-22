@@ -33,6 +33,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="../js/jquery.fatNav.min.js"></script>
 <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="../js/imagesloaded.js"></script>
 <script type="text/javascript" src="../js/jquery.swipebox.js"></script>
 
 
@@ -232,7 +233,7 @@
 }());
 </script>
 
-<!-- grid -->
+<!-- grid 
 <script type="text/javascript">
 $('#masonry').masonry({
   // options
@@ -241,7 +242,24 @@ $('#masonry').masonry({
   isAnimated: true,
   isResizable: true
 });
+</script>-->
+
+
+<script type="text/javascript">
+$(function(){
+var $container = $('#masonry');
+$container.imagesLoaded(function(){
+    $container.masonry({
+        itemSelector: '.grid-item--width2',
+        isFitWidth: true,
+        isAnimated: true,
+        isResizable: true
+    });
+});
+});
 </script>
+
+
 
 <!-- swipebox -->
 <script type="text/javascript">
