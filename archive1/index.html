@@ -31,6 +31,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="../js/jquery.fatNav.min.js"></script>
 <script type="text/javascript" src="../js/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="../js/imagesloaded.js"></script>
 
 
 
@@ -52,7 +53,7 @@
 <nav class="fat-nav">
 <div class="fat-nav__wrapper">
 <ul>
-<li><img src="../img/logo.svg"  alt="logo"/></li>
+<li><a href="/"><img src="../img/logo.svg"  alt="logo"/></a></li>
 <li><a href="/about/">about</a></li>
 <li><a href="/archive1/">archive1</a></li>
 <li><a href="/archive2/">archive2</a></li>
@@ -64,7 +65,7 @@
 
 
 <header>
-<div class="page_ttl"><h1><img src="../img/logo2.svg" alt="log"/></h1></div>
+<div class="page_ttl"><h1><a href="/"><img src="../img/logo2.svg" alt="log"/></a></h1></div>
 </header>
 
 
@@ -80,7 +81,8 @@
 <div class="grid"><img src="img/095A81891-642x348.jpg"></div>
 <div class="grid"><img src="img/20161015-johncassavetes02.jpg"></div>
 <div class="grid"><img src="img/20161012-kiseki_sp.jpg"></div>
-</div><div style="clear: both;"></div>
+</div>
+<div style="clear: both;"></div>
 
 
 
@@ -96,7 +98,7 @@
 }());
 </script>
 
-<!-- grid -->
+<!-- grid
 <script type="text/javascript">
 $('#masonry').masonry({
   // options
@@ -104,7 +106,22 @@ $('#masonry').masonry({
   isFitWidth: true,
   isAnimated: true
 });
+</script> -->
+
+
+<script type="text/javascript">
+$(function(){
+var $container = $('#masonry');
+$container.imagesLoaded(function(){
+	$container.masonry({
+		itemSelector: '.grid',
+		isFitWidth: true,
+		isAnimated: true
+	});
+});
+});
 </script>
+
 
 
 </body>
