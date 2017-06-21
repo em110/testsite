@@ -30,6 +30,8 @@
 <!-- js -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/jquery.fatNav.min.js"></script>
+<script type="text/javascript" src="js/jquery.loadTemplate.min.js"></script>
+<script type="text/javascript" src="js/main-min.js"></script>
 
 
 
@@ -51,7 +53,35 @@
 
 
 
+<a class="item" href="work/#/248">
+<div class="over">
+<span class="text" style="color:#000000"><span>fff</span></span>
+<div class="bg" style="background-color:#ffffff"></div>
+</div>
+<div class="image">
+<img src="img/templete/thumb_blue-11.jpg" width="210" height="210" style="display: block;">
+<img src="img/templete/thumb_mage-11.jpg" width="210" height="210" style="display: none;">
+<img src="img/templete/thumb_orange-11.jpg" width="210" height="210" style="display: none;">
+<img src="img/templete/thumb_sign-photo1.jpg" width="210" height="210" style="display: none;">
+<img src="img/templete/thumb_violet-11.jpg" width="210" height="210" style="display: none;">
+</div>
+</a>
 
+
+
+<script id="item-template" type="text/x-jquery-tmpl">
+<a class="item" href="work/#/${id}">
+<div class="over">
+<span class="text" style="color:${text_color}"><span>${title}</span></span>
+<div class="bg" style="background-color:${background_color}"></div>
+</div>
+<div class="image">
+{{each images}}
+<img src="${url}" width="${width}" height="${height}">
+{{/each}}
+</div>
+</a>
+</script>
 
 </div>
 
